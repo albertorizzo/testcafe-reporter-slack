@@ -9,7 +9,7 @@ const { loggingLevel } = config;
 export default function () {
   return {
 
-    noColors: true,
+    noColors: false,
 
     reportTaskStart(startTime, userAgents, testCount) {
       this.slack = new SlackMessage();
